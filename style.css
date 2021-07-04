@@ -2,6 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+/* First Section */
+section {
+    display: flex;
+    margin-bottom: 150px;
+}
 
 h1{
     font-size: 50px;
@@ -12,9 +17,8 @@ h1{
 }
 
 .section-1 {
-    display: flex;
-    background-image: url('images/top-banner.png');background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
 }
 
 .half-width {
@@ -33,4 +37,13 @@ h1{
 
 .half-width img {
     width: 80%;
+}
+
+/* First section Done */
+
+/* Second Section */
+.section-2 {
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
